@@ -6,7 +6,6 @@ import axios from "axios"
 import randomstring from "randomstring"
 
 const key = process.env.RAPID_API_KEY
-console.log(key)
 
 const SearchTitle = ({title, setTitle}: SearchTitleProps) => {
   const[query, setQuery] = useState('')
@@ -35,12 +34,10 @@ const SearchTitle = ({title, setTitle}: SearchTitleProps) => {
       }
     }
       }
-      
 
     fetchFilteredTitles()
   },[query])
   
-
   return (
     <div className="search-title">
       <Combobox value={title} onChange={setTitle}>
