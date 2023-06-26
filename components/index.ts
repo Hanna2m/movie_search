@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import CustomFilter from "./CustomFilter";
 import SearchBar from "./SearchBar";
 import SearchTitle from "./SearchTitle";
+import CardMovie from "./CardMovie";
+import WatchMovie from "./WatchMovie";
 
 export {
   Hero,
@@ -13,5 +15,7 @@ export {
   CustomButton,
   CustomFilter,
   SearchBar,
-  SearchTitle
+  SearchTitle,
+  CardMovie,
+  WatchMovie
 }
